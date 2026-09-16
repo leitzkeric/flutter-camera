@@ -4,17 +4,6 @@ Projeto **Banco d'Ouro** utilizando recursos do Flutter para: integrações com 
 
 ![Gif de execução do projeto](gif_4465.gif)
 
-### Tópicos abordados:
-
-- Aprender a detectar e obter informações sobre as câmeras disponíveis;
-- Descobrir como lidar com permissões nos dispositivos nativos;
-- Conhecer como inicializar uma câmera com configurações pré-definidas;
-- Entender como visualizar a câmera em tempo real e como resolver os problemas relacionados;
-- Conhecer atributos de câmera que podem ser controlados em tempo real;
-- Aprender a apresentar elementos gráficos acima da câmera;
-- Entender como capturar uma imagem da câmera;
-
-Este curso é indicado para pessoas que já tem conhecimento intermediário e querem aprofundar seu conhecimento em Flutter, seguindo boas práticas e também entendendo como funciona internacionalização dentro dos padrões mobile.
 
 ## ✨ Funcionalidades do projeto
 
