@@ -1,0 +1,29 @@
+name: flutter_camera
+description: "O seu douradinho favorito!"
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  camera: ^0.12.1
+  flutter:
+    sdk: flutter
+  image: ^4.10.1
+  lottie: ^3.3.1
+  permission_handler: ^13.0.2
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/guides/
+    - assets/lotties/
