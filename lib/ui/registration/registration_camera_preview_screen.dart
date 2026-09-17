@@ -151,8 +151,8 @@ class _RegistrationCameraPreviewScreenState
     );
 
     await cameraController!.initialize();
-    print("===================Orientação");
-    print("sensor Orientation ${widget.cameraDescription.sensorOrientation}");
+    // print("===================Orientação");
+    // print("sensor Orientation ${widget.cameraDescription.sensorOrientation}");
     cameraController!.lockCaptureOrientation(DeviceOrientation.portraitUp);
     // switch (widget.cameraDescription.sensorOrientation) {
     //   case 0:

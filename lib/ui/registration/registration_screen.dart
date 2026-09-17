@@ -171,7 +171,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
     bool isDocument = true,
   }) async {
     List<CameraDescription> listCameras = await availableCameras();
-    print(listCameras.toString().replaceAll("),", "),\n"));
+    // print(listCameras.toString().replaceAll("),", "),\n"));
 
     PermissionStatus cameraPermissionStatus = await Permission.camera.status;
     if (cameraPermissionStatus == PermissionStatus.denied) {
@@ -183,7 +183,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
         cameraPermissionStatus = newStatus;
       }
     }
-    print(cameraPermissionStatus);
+    // print(cameraPermissionStatus);
 
     if (cameraPermissionStatus != PermissionStatus.denied &&
         cameraPermissionStatus != PermissionStatus.permanentlyDenied) {
