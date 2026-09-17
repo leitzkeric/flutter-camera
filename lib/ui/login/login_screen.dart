@@ -19,7 +19,7 @@ class LoginScreen extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                const SizedBox(height: 128),
+                const SizedBox(height: 120),
                 Image.asset("assets/images/logo.png", width: 120),
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -30,7 +30,7 @@ class LoginScreen extends StatelessWidget {
                       textAlign: TextAlign.center,
                       style: TextStyle(fontSize: 32),
                     ),
-                    const SizedBox(height: 32),
+                    const SizedBox(height: 20),
                     TextFormField(
                       decoration: const InputDecoration(label: Text("E-mail")),
                     ),
@@ -39,7 +39,7 @@ class LoginScreen extends StatelessWidget {
                       obscureText: true,
                       decoration: const InputDecoration(label: Text("Senha")),
                     ),
-                    const SizedBox(height: 32),
+                    const SizedBox(height: 20),
                     ElevatedButton(
                       onPressed: () {
                         Navigator.pushReplacementNamed(context, "home");
